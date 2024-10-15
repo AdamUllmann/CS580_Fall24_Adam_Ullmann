@@ -4,7 +4,8 @@ If pandas, matplotlib, or numpy are not already installed, you will need to run 
 ```bash
 pip install pandas matplotlib numpy
 ```
-Note: This program expects the file called "linear_regression_data.csv" to be in the same directory as the python code running.
+Note: This program expects the file called "linear_regression_data.csv" to be in the same directory as the python code running. This file is already in the repo, and it originally came from Canvas.
+
 Then, run our program with this command:
 ```bash
 python3 problem1.py
