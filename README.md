@@ -11,7 +11,7 @@ python3 problem1.py
 ```
 With the data ("linear_regression_data.csv") provided from Canvas, the program should print the following:
 ```
-Slope (m): 2.77014
-Intercept (b): 4.21518
+Slope (m): 2.770143943072809
+y-Intercept (b): 4.215178247449777
 ```
 The program should also produce an image file called "linear_regression_plot.png" within the same directory as the code running. You can then open the image with any tool that you choose (eom, photos, any default windows apps).
