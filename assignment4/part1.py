@@ -13,8 +13,10 @@ y = data.iloc[:, -1].values
 learning_rate = 0.1  	# play
 iterations = 65  	# play
 
-weights = np.random.rand(2)
-bias = np.random.rand()
+#weights = np.random.rand(2)
+#bias = np.random.rand()
+weights = np.random.rand(2) * 2 - 1 
+bias = np.random.uniform(-1, 1)
 plt.scatter(X[y == 0][:, 0], X[y == 0][:, 1], color='blue')
 plt.scatter(X[y == 1][:, 0], X[y == 1][:, 1], color='red')
 plt.xlabel('Feature 1')
